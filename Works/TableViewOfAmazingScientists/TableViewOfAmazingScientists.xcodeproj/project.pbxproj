@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCEC2DD61D2FF0BF0047434A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2DD51D2FF0BF0047434A /* main.m */; };
+		BCEC2DD91D2FF0BF0047434A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2DD81D2FF0BF0047434A /* AppDelegate.m */; };
+		BCEC2DDF1D2FF0BF0047434A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEC2DDD1D2FF0BF0047434A /* Main.storyboard */; };
+		BCEC2DE11D2FF0BF0047434A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEC2DE01D2FF0BF0047434A /* Assets.xcassets */; };
+		BCEC2DE41D2FF0C00047434A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEC2DE21D2FF0C00047434A /* LaunchScreen.storyboard */; };
+		BCEC2DED1D2FF3BB0047434A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2DEC1D2FF3BB0047434A /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCEC2DD11D2FF0BF0047434A /* TableViewOfAmazingScientists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewOfAmazingScientists.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEC2DD51D2FF0BF0047434A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCEC2DD71D2FF0BF0047434A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCEC2DD81D2FF0BF0047434A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCEC2DDE1D2FF0BF0047434A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCEC2DE01D2FF0BF0047434A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCEC2DE31D2FF0C00047434A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCEC2DE51D2FF0C00047434A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEC2DEB1D2FF3BB0047434A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		BCEC2DEC1D2FF3BB0047434A /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCEC2DCE1D2FF0BF0047434A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCEC2DC81D2FF0BF0047434A = {
+			isa = PBXGroup;
+			children = (
+				BCEC2DD31D2FF0BF0047434A /* TableViewOfAmazingScientists */,
+				BCEC2DD21D2FF0BF0047434A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCEC2DD21D2FF0BF0047434A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCEC2DD11D2FF0BF0047434A /* TableViewOfAmazingScientists.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCEC2DD31D2FF0BF0047434A /* TableViewOfAmazingScientists */ = {
+			isa = PBXGroup;
+			children = (
+				BCEC2DD71D2FF0BF0047434A /* AppDelegate.h */,
+				BCEC2DD81D2FF0BF0047434A /* AppDelegate.m */,
+				BCEC2DEB1D2FF3BB0047434A /* TableViewController.h */,
+				BCEC2DEC1D2FF3BB0047434A /* TableViewController.m */,
+				BCEC2DDD1D2FF0BF0047434A /* Main.storyboard */,
+				BCEC2DE01D2FF0BF0047434A /* Assets.xcassets */,
+				BCEC2DE21D2FF0C00047434A /* LaunchScreen.storyboard */,
+				BCEC2DE51D2FF0C00047434A /* Info.plist */,
+				BCEC2DD41D2FF0BF0047434A /* Supporting Files */,
+			);
+			path = TableViewOfAmazingScientists;
+			sourceTree = "<group>";
+		};
+		BCEC2DD41D2FF0BF0047434A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCEC2DD51D2FF0BF0047434A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCEC2DD01D2FF0BF0047434A /* TableViewOfAmazingScientists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEC2DE81D2FF0C00047434A /* Build configuration list for PBXNativeTarget "TableViewOfAmazingScientists" */;
+			buildPhases = (
+				BCEC2DCD1D2FF0BF0047434A /* Sources */,
+				BCEC2DCE1D2FF0BF0047434A /* Frameworks */,
+				BCEC2DCF1D2FF0BF0047434A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewOfAmazingScientists;
+			productName = TableViewOfAmazingScientists;
+			productReference = BCEC2DD11D2FF0BF0047434A /* TableViewOfAmazingScientists.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCEC2DC91D2FF0BF0047434A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Bibinur;
+				TargetAttributes = {
+					BCEC2DD01D2FF0BF0047434A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BCEC2DCC1D2FF0BF0047434A /* Build configuration list for PBXProject "TableViewOfAmazingScientists" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCEC2DC81D2FF0BF0047434A;
+			productRefGroup = BCEC2DD21D2FF0BF0047434A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCEC2DD01D2FF0BF0047434A /* TableViewOfAmazingScientists */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCEC2DCF1D2FF0BF0047434A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEC2DE41D2FF0C00047434A /* LaunchScreen.storyboard in Resources */,
+				BCEC2DE11D2FF0BF0047434A /* Assets.xcassets in Resources */,
+				BCEC2DDF1D2FF0BF0047434A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCEC2DCD1D2FF0BF0047434A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEC2DD91D2FF0BF0047434A /* AppDelegate.m in Sources */,
+				BCEC2DED1D2FF3BB0047434A /* TableViewController.m in Sources */,
+				BCEC2DD61D2FF0BF0047434A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCEC2DDD1D2FF0BF0047434A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEC2DDE1D2FF0BF0047434A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCEC2DE21D2FF0C00047434A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEC2DE31D2FF0C00047434A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCEC2DE61D2FF0C00047434A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCEC2DE71D2FF0C00047434A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCEC2DE91D2FF0C00047434A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewOfAmazingScientists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhursinbek.bibinur.TableViewOfAmazingScientists;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCEC2DEA1D2FF0C00047434A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewOfAmazingScientists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhursinbek.bibinur.TableViewOfAmazingScientists;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCEC2DCC1D2FF0BF0047434A /* Build configuration list for PBXProject "TableViewOfAmazingScientists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEC2DE61D2FF0C00047434A /* Debug */,
+				BCEC2DE71D2FF0C00047434A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEC2DE81D2FF0C00047434A /* Build configuration list for PBXNativeTarget "TableViewOfAmazingScientists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEC2DE91D2FF0C00047434A /* Debug */,
+				BCEC2DEA1D2FF0C00047434A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCEC2DC91D2FF0BF0047434A /* Project object */;
+}
